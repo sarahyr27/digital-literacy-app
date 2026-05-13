@@ -1,0 +1,7 @@
+@plugin "@iconify/tailwind4";
+@import 'tailwindcss';
+@import 'tailwindcss-animated';
+
+body {
+  margin: 0;
+}
