@@ -1,2 +1,2 @@
-# digital-literacy-app
-This is a digital literacy and cibersecurity learning app, specially designed for seniors, developed in Vue.js and Tailwind
+# Digital Literacy App
+This is my first Vue.js/Tailwind project so far. It’s a digital literacy and cybersecurity learning app for seniors (or anyone who wants to learn!), designed by me as the result of previous research on the impact of cyberattacks on the elderly population worldwide, as well as the increasing isolation and difficulty in accessing basic services caused by a lack of digital literacy.
