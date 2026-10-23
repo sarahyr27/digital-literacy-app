@@ -34,13 +34,13 @@ export default {
         class="hover:scale-105 transition"
       >
         <template #content>
-          <a
-            :href="element.url"
+          <RouterLink
+            :to="`/categorias-cursos/subcategoria/${element.id}`"
             class="block w-full h-full no-underline text-inherit flex flex-col gap-4"
           >
             <h2 class="text-2xl font-bold">{{ element.category }}</h2>
             <p class="text-lg">{{ element.description }}</p>
-          </a>
+          </RouterLink>
         </template>
       </Box>
     </div>

@@ -46,7 +46,22 @@ export default {
   },
   computed: {
     testStartIndex() {
-      return this.currentCourse.pages.findIndex((pageObj) => pageObj.component === CourseTest)
+      return this.currentCourse.pages.findIndex((page) => page.type === 'test')
+    },
+    currentPageComponent() {
+      const page = this.currentCourse.pages[this.currentPage]
+      const components = {
+        content: CourseContent,
+        test: CourseTest,
+        result: CourseResult,
+      }
+      const component = components[page.type]
+
+      if (!component) {
+        throw new Error(`Unsupported course page type: ${page.type}`)
+      }
+
+      return component
     },
   },
   watch: {
@@ -85,8 +100,8 @@ export default {
         <!-- Espacio para el uso de otro componente, maneja la paginación y contenido de la página -->
         <section class="flex items-center justify-center h-full">
           <component
-            :is="currentCourse.pages[currentPage].component"
-            :key="currentCourse.pages[currentPage].title"
+            :is="currentPageComponent"
+            :key="currentPage"
             :page="currentCourse.pages[currentPage]"
             :areAnswersCorrect="areAnswersCorrect"
             @update-received-answer="updateReceivedAnswer"

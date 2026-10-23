@@ -2,9 +2,23 @@
 <script>
 export default {
   props: {
-    currentCourse: Object,
+    content: {
+      type: Array,
+      required: true,
+    },
   },
-  emits: ['toggle-modal'],
+  computed: {
+    currentCourse() {
+      return (
+        this.content
+          .flatMap((category) =>
+            category.subcategories.flatMap((subcategory) => subcategory.courses),
+          )
+          .find((course) => course.id === this.$route.params.curso) ?? null
+      )
+    },
+  },
+  emits: ['find-current-course', 'toggle-modal'],
 }
 </script>
 
@@ -18,7 +32,7 @@ export default {
         <p class="text-xl">{{ currentCourse.description }}</p>
         <button
           class="bg-blue-900 text-white hover:bg-blue-950 text-lg sm:text-xl px-6 py-2 w-2/3 cursor-pointer rounded-xl hover:scale-102 hover:transform transition shadow-md shadow-slate-800/50"
-          @click="$emit('toggle-modal')"
+          @click="($emit('find-current-course', currentCourse), $emit('toggle-modal'))"
         >
           Empezar curso
         </button>

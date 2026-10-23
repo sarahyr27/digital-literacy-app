@@ -24,7 +24,7 @@ const variants = {
 export default {
   props: {
     msg: String,
-    page: String,
+    url: String,
     variants: {
       type: Array,
       default: () => ['dark'],
@@ -39,15 +39,15 @@ export default {
 </script>
 
 <template>
-  <a
-    :href="page"
+  <RouterLink
+    :to="url"
     :class="[
       'cursor-pointer rounded-xl text-center flex items-center justify-center hover:scale-102 hover:transform transition shadow-md shadow-slate-800/50',
       classes,
     ]"
   >
     {{ msg }}
-  </a>
+  </RouterLink>
 </template>
 
 <style scoped></style>

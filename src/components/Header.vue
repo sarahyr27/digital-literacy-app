@@ -34,29 +34,29 @@ export default {
     >
       <!-- Menú escritorio: oculto en sm -->
       <div class="flex items-center mx-4 gap-4">
-        <a href="#/" class="shrink-0 z-20"
+        <RouterLink to="/" class="shrink-0 z-20"
           ><img src="/images/logo.png" alt="Logo" class="mt-12"
-        /></a>
+        /></RouterLink>
         <ul class="hidden lg:flex list-none flex p-0 gap-10">
           <li class="text-center">
-            <a
-              href="#/"
+            <RouterLink
+              to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
-              >Página Principal</a
+              >Página Principal</RouterLink
             >
           </li>
           <li class="text-center">
-            <a
-              href="#/cursos"
+            <RouterLink
+              to="/categorias-cursos"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
-              >Cursos</a
+              >Cursos</RouterLink
             >
           </li>
           <li class="text-center">
-            <a
-              href="#/"
+            <RouterLink
+              to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
-              >Ayuda</a
+              >Ayuda</RouterLink
             >
           </li>
         </ul>
@@ -65,18 +65,18 @@ export default {
       <div class="mx-6">
         <ul class="hidden lg:flex list-none flex p-0 gap-4">
           <li class="text-center">
-            <a
-              href="#/"
+            <RouterLink
+              to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
-              >Registrarse</a
+              >Registrarse</RouterLink
             >
           </li>
           <li class="text-center">|</li>
           <li class="text-center">
-            <a
-              href="#/"
+            <RouterLink
+              to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
-              >Iniciar Sesión</a
+              >Iniciar Sesión</RouterLink
             >
           </li>
         </ul>
@@ -100,38 +100,38 @@ export default {
           class="bg-sky-100 rounded-b-xl text-slate-800 text-2xl flex flex-col justify-between gap-3 p-6 pt-10 w-screen h-[calc(100dvh-6rem)]"
         >
           <li class="text-center">
-            <a
-              href="#/"
+            <RouterLink
+              to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
-              >Página Principal</a
+              >Página Principal</RouterLink
             >
           </li>
           <li class="text-center">
-            <a
-              href="#/cursos"
+            <RouterLink
+              to="/categorias-cursos"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
-              >Cursos</a
+              >Cursos</RouterLink
             >
           </li>
           <li class="text-center">
-            <a
-              href="#/"
+            <RouterLink
+              to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
-              >Ayuda</a
+              >Ayuda</RouterLink
             >
           </li>
           <li class="text-center">
-            <a
-              href="#/"
+            <RouterLink
+              to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
-              >Registrarse</a
+              >Registrarse</RouterLink
             >
           </li>
           <li class="text-center">
-            <a
-              href="#/"
+            <RouterLink
+              to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
-              >Iniciar Sesión</a
+              >Iniciar Sesión</RouterLink
             >
           </li>
         </ul>

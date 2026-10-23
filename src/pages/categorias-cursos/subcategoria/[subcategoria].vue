@@ -20,12 +20,10 @@ export default {
   },
   props: {
     content: Object,
-    currentPath: String,
   },
   computed: {
-    // Devuelve el objeto que contenga el url en el que nos encontramos
     currentCategory() {
-      return this.content.find((element) => element.url === this.currentPath)
+      return this.content.find((element) => element.id === this.$route.params.subcategoria)
     },
   },
   emits: ['find-current-course'],
@@ -33,17 +31,16 @@ export default {
 </script>
 
 <template>
-  <div class="flex flex-col gap-6 text-slate-800">
+  <div v-if="currentCategory" class="flex flex-col gap-6 text-slate-800">
     <h1 class="text-3xl font-bold">Cursos</h1>
     <h2 class="text-2xl font-bold">{{ currentCategory.category }}</h2>
-    <p class="text-xl">
-      Estás dentro de la categoría de cursos de {{ currentCategory.category }}. Selecciona un
-      recuadro para entrar en el curso.
-    </p>
+    <p class="text-xl">{{ currentCategory.description }}.</p>
+    <p class="text-xl">Selecciona un recuadro para entrar en un curso.</p>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
       <!-- Category: Móviles y tablets -->
       <div
         v-for="(category, index) in currentCategory.subcategories"
+        :key="category.id"
         class="flex flex-col gap-6 mt-8"
       >
         <h3
@@ -54,14 +51,13 @@ export default {
         <div class="flex overflow-x-scroll p-2 md:p-0 md:overflow-visible md:flex-col gap-6">
           <AnchorTagButton
             v-for="course in category.courses"
+            :key="course.title"
             :msg="course.title"
-            :page="course.url"
+            :url="`/categorias-cursos/subcategoria/curso/${course.id}`"
             :variants="[`${colors[index]}Light`]"
             class="py-6 min-w-48 h-9/10"
             @click="$emit('find-current-course', course)"
-          >
-            <a :href="course.url" class="block w-full h-full no-underline text-inherit"></a
-          ></AnchorTagButton>
+          />
         </div>
       </div>
     </div>

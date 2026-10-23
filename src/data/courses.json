@@ -1,0 +1,295 @@
+[
+  {
+    "category": "Alfabetización Digital",
+    "id": "alfabetizacion-digital",
+    "description": "Aprende a sentirte cómodo usando tu móvil, tablet u ordenador",
+    "subcategories": [
+      {
+        "name": "Ordenadores",
+        "courses": [
+          {
+            "title": "Encendido y apagado",
+            "id": "encendido-y-apagado",
+            "description": "En este curso podrás aprender cómo encender y apagar tu ordenador.",
+            "imgSource": "/images/img4.webp",
+            "imgAlternativeText": "ordenador de mesa",
+            "pages": [
+              {
+                "type": "content",
+                "textContent": "Apagar el ordenador correctamente no solo es una buena práctica, sino también algo esencial para garantizar un buen rendimiento y evitar causarle daños al sistema. En este curso, aprenderás cómo apagar tu ordenador de la manera correcta, garantizando un apagado completo y eficiente.",
+                "imgSource": "/images/img4.webp",
+                "imgAlternativeText": "ordenador de mesa"
+              },
+              {
+                "type": "content",
+                "textContent": "Para encender el ordenador correctamente, primero asegúrate de que esté conectado a la corriente. Después, localiza el botón de encendido, normalmente identificado con un símbolo circular con una línea vertical. Presiona el botón una sola vez y espera unos segundos mientras el sistema inicia. Durante el encendido, es normal que la pantalla tarde un poco en mostrar información. Evita presionar varias veces el botón, ya que esto puede causar errores o impedir que el ordenador arranque correctamente.",
+                "imgSource": "/images/img4.webp",
+                "imgAlternativeText": "ordenador de mesa"
+              },
+              {
+                "type": "content",
+                "textContent": "Para apagar el ordenador de forma segura, primero guarda cualquier documento o trabajo que tengas abierto. Después, busca el menú de inicio en la parte inferior de la pantalla y selecciona la opción “Apagar”. El ordenador comenzará el proceso de cierre automáticamente. Espera unos segundos hasta que la pantalla se apague por completo antes de desconectar el equipo de la corriente. Apagar el ordenador correctamente ayuda a proteger tus archivos y mantener el sistema funcionando correctamente.",
+                "imgSource": "/images/img4.webp",
+                "imgAlternativeText": "ordenador de mesa"
+              },
+              {
+                "type": "content",
+                "textContent": "Aunque pueda parecer más rápido, no es recomendable apagar el ordenador manteniendo presionado el botón de encendido. Hacer esto puede provocar pérdida de información, daños en archivos o errores en el sistema. El botón de encendido solo debe utilizarse de esta manera cuando el ordenador no responde o se encuentra bloqueado. Siempre que sea posible, utiliza la opción “Apagar” desde el menú del sistema para realizar un cierre seguro y completo. <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
+                "imgSource": "/images/img4.webp",
+                "imgAlternativeText": "ordenador de mesa"
+              },
+              {
+                "type": "test",
+                "title": "como encender ordenador",
+                "fullQuestion": "¿Qué debes hacer antes de encender el ordenador?",
+                "options": [
+                  {
+                    "id": 0,
+                    "answer": "Desconectarlo de la corriente",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": 1,
+                    "answer": "Asegurarte de que está conectado a la corriente",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": 2,
+                    "answer": "Mantener presionado el botón de encendido durante varios segundos",
+                    "isCorrect": false
+                  }
+                ]
+              },
+              {
+                "type": "test",
+                "title": "como apagar odenador",
+                "fullQuestion": "¿Cuál es la forma correcta de apagar tu ordenador?",
+                "options": [
+                  {
+                    "id": 0,
+                    "answer": "Desconectarlo de la corriente",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": 1,
+                    "answer": "Apretar el botón de apagado",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": 2,
+                    "answer": "Seleccionar la opción 'Apagar' desde inicio",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": 3,
+                    "answer": "Si el botón de apagado está correctamente configurado, lo puedes apagar desde ahí",
+                    "isCorrect": true
+                  }
+                ]
+              },
+              {
+                "type": "test",
+                "title": "boton de encendido",
+                "fullQuestion": "¿Cuándo se recomienda mantener presionado el botón de encendido?",
+                "options": [
+                  {
+                    "id": 0,
+                    "answer": "Siempre que quieras apagar el ordenador rápidamente",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": 1,
+                    "answer": "Cuando quieras ahorrar electricidad",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": 2,
+                    "answer": "Solo cuando el ordenador no responde o está bloqueado",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": 3,
+                    "answer": "Cada vez que termines de usar el ordenador",
+                    "isCorrect": false
+                  }
+                ]
+              },
+              {
+                "type": "result"
+              }
+            ]
+          },
+          {
+            "title": "Usar el ratón",
+            "id": "usar-el-raton",
+            "description": "En este curso aprenderás las funciones básicas del ratón y cómo utilizarlo para interactuar con tu ordenador.",
+            "imgSource": "/images/img4.webp",
+            "imgAlternativeText": "ordenador de mesa",
+            "pages": [
+              {
+                "type": "content",
+                "textContent": "El ratón es una de las herramientas principales para utilizar un ordenador. Permite mover el cursor por la pantalla y seleccionar diferentes elementos, como botones, carpetas o programas. Aprender a usar el ratón correctamente hará que navegar por el ordenador sea mucho más sencillo y cómodo.",
+                "imgSource": "/images/img4.webp",
+                "imgAlternativeText": "ordenador de mesa"
+              },
+              {
+                "type": "content",
+                "textContent": "Para mover el cursor, simplemente desliza el ratón suavemente sobre una superficie plana. El cursor se moverá en la misma dirección que el ratón. Intenta hacer movimientos lentos y controlados hasta sentirte cómodo manejándolo.",
+                "imgSource": "/images/img4.webp",
+                "imgAlternativeText": "ordenador de mesa"
+              },
+              {
+                "type": "content",
+                "textContent": "El botón izquierdo del ratón se utiliza para seleccionar elementos. Un solo clic sirve para seleccionar algo, mientras que un doble clic suele utilizarse para abrir carpetas o programas. Es importante hacer los clics de manera suave y rápida.",
+                "imgSource": "/images/img4.webp",
+                "imgAlternativeText": "ordenador de mesa"
+              },
+              {
+                "type": "content",
+                "textContent": "El botón derecho del ratón permite abrir menús con opciones adicionales. Cuando haces clic derecho sobre un elemento, aparecerá un pequeño menú con distintas acciones disponibles. También puedes usar la rueda central del ratón para desplazarte hacia arriba y abajo en páginas o documentos. <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
+                "imgSource": "/images/img4.webp",
+                "imgAlternativeText": "ordenador de mesa"
+              },
+              {
+                "type": "test",
+                "title": "mover cursor",
+                "fullQuestion": "¿Qué debes hacer para mover el cursor por la pantalla?",
+                "options": [
+                  {
+                    "id": 0,
+                    "answer": "Presionar varias veces el teclado",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": 1,
+                    "answer": "Mover el ratón sobre una superficie plana",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": 2,
+                    "answer": "Apagar y encender el ordenador",
+                    "isCorrect": false
+                  }
+                ]
+              },
+              {
+                "type": "test",
+                "title": "clic izquierdo",
+                "fullQuestion": "¿Para qué se utiliza normalmente el botón izquierdo del ratón?",
+                "options": [
+                  {
+                    "id": 0,
+                    "answer": "Para apagar el ordenador",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": 1,
+                    "answer": "Para seleccionar y abrir elementos",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": 2,
+                    "answer": "Para subir el volumen",
+                    "isCorrect": false
+                  }
+                ]
+              },
+              {
+                "type": "test",
+                "title": "clic derecho",
+                "fullQuestion": "¿Qué ocurre normalmente al hacer clic derecho sobre un elemento?",
+                "options": [
+                  {
+                    "id": 0,
+                    "answer": "Se apaga la pantalla",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": 1,
+                    "answer": "Se abre automáticamente Internet",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": 2,
+                    "answer": "Aparece un menú con opciones adicionales",
+                    "isCorrect": true
+                  }
+                ]
+              },
+              {
+                "type": "result"
+              }
+            ]
+          },
+          {
+            "title": "Usar el teclado"
+          },
+          {
+            "title": "Partes de un ordenador"
+          },
+          {
+            "title": "Conectarse a Internet"
+          }
+        ]
+      },
+      {
+        "name": "Móviles y Tablets",
+        "courses": [
+          {
+            "title": "Encendido y apagado"
+          },
+          {
+            "title": "Usar una pantalla táctil"
+          },
+          {
+            "title": "Gestos táctiles avanzados"
+          },
+          {
+            "title": "Configuraciones básicas"
+          },
+          {
+            "title": "Conectarse a Internet"
+          }
+        ]
+      },
+      {
+        "name": "General",
+        "courses": [
+          {
+            "title": "Buscar y gestionar documentos y archivos"
+          },
+          {
+            "title": "Tomar y editar fotos"
+          },
+          {
+            "title": "Usar el correo electrónico"
+          },
+          {
+            "title": "Descargar aplicaciones o programas"
+          },
+          {
+            "title": "Realizar búsquedas en Internet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Higiene Digital",
+    "id": "higiene-digital",
+    "description": "Adquiere buenos hábitos para manejar y proteger tu identidad y tus datos en medios digitales",
+    "subcategories": [{ "name": "Protección de datos", "courses": [] }]
+  },
+  {
+    "category": "Ciberseguridad",
+    "id": "ciberseguridad",
+    "description": "Conoce cuáles son las estrategias que te ayudarán a mantenerte seguro al usar internet",
+    "subcategories": []
+  },
+  {
+    "category": "Pensamiento crítico en la red",
+    "id": "pensamiento-critico-en-la-red",
+    "description": "Aprender a identificar noticias falsas o imágenes generadas por Inteligencia Artificial",
+    "subcategories": []
+  }
+]

@@ -26,9 +26,18 @@ export default {
         </figure>
       </section>
       <section class="flex flex-col gap-6 items-center justify-center">
-        <AnchorTagButton msg="Regístrate gratis" :variants="['dark', 'large']" />
-        <AnchorTagButton page="#/cursos" msg="Accede a los cursos" :variants="['dark', 'large']" />
-        <AnchorTagButton msg="¿Necesitas Ayuda?" :variants="['light', 'medium']" class="mt-4" />
+        <AnchorTagButton msg="Regístrate gratis" url="/" :variants="['dark', 'large']" />
+        <AnchorTagButton
+          url="/categorias-cursos"
+          msg="Accede a los cursos"
+          :variants="['dark', 'large']"
+        />
+        <AnchorTagButton
+          msg="¿Necesitas Ayuda?"
+          url="/"
+          :variants="['light', 'medium']"
+          class="mt-4"
+        />
       </section>
     </div>
     <!-- Section two -->
@@ -58,7 +67,7 @@ export default {
             </template>
             <template #button>
               <AnchorTagButton
-                page="#/cursos"
+                url="/categorias-cursos"
                 msg="ver los cursos"
                 :variants="['dark', 'medium']"
               />
@@ -81,7 +90,7 @@ export default {
             </template>
             <template #button>
               <AnchorTagButton
-                page="#/cursos"
+                url="/categorias-cursos"
                 msg="ver los cursos"
                 :variants="['dark', 'medium']"
               />
