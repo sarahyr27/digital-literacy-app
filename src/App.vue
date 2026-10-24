@@ -1,20 +1,8 @@
 <script>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-// import Home from './pages/index.vue/index.js'
-// import Categories from './pages/categories.vue/index.js'
-// import SubCategories from './pages/subcategories.vue/index.js'
-// import CourseMainPage from './pages/course-main-page.vue/index.js'
 import CourseBoxModal from './components/CourseBoxModal.vue'
 import courses from './data/courses.json'
-
-// const routes = {
-//   '/': Home,
-//   '/cursos': Categories,
-//   '/cursos/alfabetizacion_digital': SubCategories,
-//   '/cursos/alfabetizacion_digital/ordenadores/encendido_y_apagado': CourseMainPage,
-//   '/cursos/alfabetizacion_digital/ordenadores/usar_el_raton': CourseMainPage,
-// }
 
 export default {
   components: {

@@ -222,13 +222,16 @@
             ]
           },
           {
-            "title": "Usar el teclado"
+            "title": "Usar el teclado",
+            "id": ""
           },
           {
-            "title": "Partes de un ordenador"
+            "title": "Partes de un ordenador",
+            "id": ""
           },
           {
-            "title": "Conectarse a Internet"
+            "title": "Conectarse a Internet",
+            "id": ""
           }
         ]
       },
@@ -236,19 +239,24 @@
         "name": "Móviles y Tablets",
         "courses": [
           {
-            "title": "Encendido y apagado"
+            "title": "Encendido y apagado",
+            "id": ""
           },
           {
-            "title": "Usar una pantalla táctil"
+            "title": "Usar una pantalla táctil",
+            "id": ""
           },
           {
-            "title": "Gestos táctiles avanzados"
+            "title": "Gestos táctiles avanzados",
+            "id": ""
           },
           {
-            "title": "Configuraciones básicas"
+            "title": "Configuraciones básicas",
+            "id": ""
           },
           {
-            "title": "Conectarse a Internet"
+            "title": "Conectarse a Internet",
+            "id": ""
           }
         ]
       },
@@ -256,19 +264,24 @@
         "name": "General",
         "courses": [
           {
-            "title": "Buscar y gestionar documentos y archivos"
+            "title": "Buscar y gestionar documentos y archivos",
+            "id": ""
           },
           {
-            "title": "Tomar y editar fotos"
+            "title": "Tomar y editar fotos",
+            "id": ""
           },
           {
-            "title": "Usar el correo electrónico"
+            "title": "Usar el correo electrónico",
+            "id": ""
           },
           {
-            "title": "Descargar aplicaciones o programas"
+            "title": "Descargar aplicaciones o programas",
+            "id": ""
           },
           {
-            "title": "Realizar búsquedas en Internet"
+            "title": "Realizar búsquedas en Internet",
+            "id": ""
           }
         ]
       }

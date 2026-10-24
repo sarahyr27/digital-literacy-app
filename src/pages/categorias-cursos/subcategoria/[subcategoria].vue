@@ -26,7 +26,6 @@ export default {
       return this.content.find((element) => element.id === this.$route.params.subcategoria)
     },
   },
-  emits: ['find-current-course'],
 }
 </script>
 
@@ -53,10 +52,9 @@ export default {
             v-for="course in category.courses"
             :key="course.title"
             :msg="course.title"
-            :url="`/categorias-cursos/subcategoria/curso/${course.id}`"
-            :variants="[`${colors[index]}Light`]"
+            :url="course.id ? `/categorias-cursos/subcategoria/curso/${course.id}` : undefined"
+            :variants="course.id ? [`${colors[index]}Light`] : ['unavailable']"
             class="py-6 min-w-48 h-9/10"
-            @click="$emit('find-current-course', course)"
           />
         </div>
       </div>
