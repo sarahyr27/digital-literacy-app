@@ -30,13 +30,14 @@ export default {
 <template>
   <nav>
     <div
-      class="bg-sky-200 text-slate-800 text-2xl font-bold flex justify-between items-center h-24"
+      class="bg-sky-500/50 text-slate-800 text-2xl font-bold flex justify-between items-center h-24"
     >
       <!-- Menú escritorio: oculto en sm -->
       <div class="flex items-center mx-4 gap-4">
         <RouterLink to="/" class="shrink-0 z-20"
-          ><img src="/images/logo.png" alt="Logo" class="mt-12"
-        /></RouterLink>
+          ><div class="bg-sky-300 rounded-2xl">
+            <img src="/images/logo.svg" alt="Logo" class="mt-10 p-4" /></div
+        ></RouterLink>
         <ul class="hidden lg:flex list-none flex p-0 gap-10">
           <li class="text-center">
             <RouterLink

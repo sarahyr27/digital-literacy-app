@@ -1,7 +1,7 @@
 <script></script>
 <template>
   <!-- Contenedor principal-->
-  <div class="w-screen p-4 py-6 lg:py-8 bg-sky-200">
+  <div class="w-screen p-4 py-6 lg:py-8 bg-sky-500/50">
     <!-- Bloque Autor y RRSS -->
     <div class="flex items-center justify-center sm:justify-between gap-4">
       <span class="text-sm text-body sm:text-center">Desarrollado por Sarah A. Yánez</span>
