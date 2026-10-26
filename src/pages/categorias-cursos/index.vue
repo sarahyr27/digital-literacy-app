@@ -26,7 +26,7 @@ export default {
       Aquí puedes ver los diferentes temas sobre los que puedes aprender. Selecciona un recuadro
       para ver los cursos disponibles dentro de esa categoría.
     </p>
-    <div class="grid grid-cols-1 md:grid-cols-4 2xl:grid-cols-2 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-2 gap-6">
       <Box
         v-for="(element, index) in content"
         :key="element.category"

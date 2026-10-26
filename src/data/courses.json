@@ -2,7 +2,7 @@
   {
     "category": "Alfabetización Digital",
     "id": "alfabetizacion-digital",
-    "description": "Aprende a sentirte cómodo usando tu móvil, tablet u ordenador",
+    "description": "Aprende a sentirte cómodo usando tu móvil, tablet u ordenador, tanto si quieres comenzar desde cero, como si ya cuentas con algunas nociones básicas",
     "subcategories": [
       {
         "name": "Ordenadores",
@@ -290,19 +290,169 @@
   {
     "category": "Higiene Digital",
     "id": "higiene-digital",
-    "description": "Adquiere buenos hábitos para manejar y proteger tu identidad y tus datos en medios digitales",
-    "subcategories": [{ "name": "Protección de datos", "courses": [] }]
+    "description": "Adquiere hábitos seguros y saludables para manejar y proteger tu identidad, tus datos y tus sistemas",
+    "subcategories": [
+      {
+        "name": "Protección de datos",
+        "courses": [
+          {
+            "title": "Sobreestimulación digital e hiperconexión",
+            "id": ""
+          },
+          {
+            "title": "Herramientas esenciales de la protección digital",
+            "id": ""
+          },
+          {
+            "title": "Configuración y gestión del cortafuegos o firewall",
+            "id": ""
+          },
+          {
+            "title": "Los antivirus y su uso",
+            "id": ""
+          },
+          {
+            "title": "Administradores de contraseñas",
+            "id": ""
+          },
+          {
+            "title": "Autenticación multifactor",
+            "id": ""
+          },
+          {
+            "title": "Respaldo de archivos y datos",
+            "id": ""
+          },
+          {
+            "title": "Mantener aplicaciones y programas actualizados",
+            "id": ""
+          },
+          {
+            "title": "Configuración de la red en casa",
+            "id": ""
+          },
+          {
+            "title": "Uso seguro de redes públicas",
+            "id": ""
+          },
+          {
+            "title": "Red Privada Virtual (VPN)",
+            "id": ""
+          },
+          {
+            "title": "Huella digital I: primeros pasos",
+            "id": ""
+          },
+          {
+            "title": "Huella digital II: configuración de privacidad en redes sociales",
+            "id": ""
+          },
+          {
+            "title": "Huella digital III: permisos de sitios y aplicaciones",
+            "id": ""
+          },
+          {
+            "title": "Huella digital IV: trackers",
+            "id": ""
+          },
+          {
+            "title": "Reglamento General de Protección de Datos de la UE (RGPD)",
+            "id": ""
+          }
+        ]
+      }
+    ]
   },
   {
     "category": "Ciberseguridad",
     "id": "ciberseguridad",
-    "description": "Conoce cuáles son las estrategias que te ayudarán a mantenerte seguro al usar internet",
-    "subcategories": []
+    "description": "Aprende sobre los tipos de ciberataques que existen y conoce cuáles son las estrategias que te ayudarán a mantenerte seguro en la red",
+    "subcategories": [
+      {
+        "name": "Ciberseguridad",
+        "courses": [
+          {
+            "title": "¿Qué es la ciberseguridad?",
+            "id": ""
+          },
+          {
+            "title": "Seguridad en la creación y gestión de contraseñas",
+            "id": ""
+          },
+          {
+            "title": "Tipos de ciberataques",
+            "id": ""
+          },
+          {
+            "title": "Uso seguro del correo electrónico",
+            "id": ""
+          },
+          {
+            "title": "Detección de fraudes a través de llamadas telefónicas y SMS",
+            "id": ""
+          },
+          {
+            "title": "Distinguir publicidad falsa",
+            "id": ""
+          },
+          {
+            "title": "Detectar y gestionar un fraude",
+            "id": ""
+          },
+          {
+            "title": "¿Qué es un virus informático y cómo gestionarlo?",
+            "id": ""
+          }
+        ]
+      }
+    ]
   },
   {
     "category": "Pensamiento crítico en la red",
     "id": "pensamiento-critico-en-la-red",
-    "description": "Aprender a identificar noticias falsas o imágenes generadas por Inteligencia Artificial",
-    "subcategories": []
+    "description": "Conoce las herramientas que te ayudarán a identificar noticias falsas o contenido generado por Inteligencia Artificial (IA)",
+    "subcategories": [
+      {
+        "name": "Pensamiento crítico en la red",
+        "courses": [
+          {
+            "title": "¿Qué es la desinformación?",
+            "id": ""
+          },
+          {
+            "title": "Nociones sobre la Inteligencia Artificial (IA)",
+            "id": ""
+          },
+          {
+            "title": "Identificar imágenes creadas con Inteligencia Artificial (IA)",
+            "id": ""
+          },
+          {
+            "title": "Detectar vídeos generados con Inteligencia Artificial (IA)",
+            "id": ""
+          },
+          {
+            "title": "Reconocer textos generados con Inteligencia Artificial (IA)",
+            "id": ""
+          },
+          {
+            "title": "Distinguir audio generado por Inteligencia Artificial (IA)",
+            "id": ""
+          },
+          {
+            "title": "Verificación de fuentes y datos en la red",
+            "id": ""
+          },
+          {
+            "title": "Detección de noticias falsas",
+            "id": ""
+          },
+          {
+            "title": "Noticias y redes sociales",
+            "id": ""
+          }
+        ]
+      }
+    ]
   }
 ]

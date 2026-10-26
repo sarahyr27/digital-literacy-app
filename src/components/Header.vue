@@ -33,7 +33,7 @@ export default {
       class="bg-sky-500/50 text-slate-800 text-2xl font-bold flex justify-between items-center h-24"
     >
       <!-- Menú escritorio: oculto en sm -->
-      <div class="flex items-center mx-4 gap-4">
+      <div class="flex items-center mx-4 gap-4 menu-desktop">
         <RouterLink to="/" class="shrink-0 z-20"
           ><div class="bg-sky-300 rounded-2xl">
             <img src="/images/logo.svg" alt="Logo" class="mt-10 p-4" /></div
@@ -63,7 +63,7 @@ export default {
         </ul>
       </div>
       <!-- Links inicio sesión: ocultos en sm -->
-      <div class="mx-6">
+      <div class="mx-6 menu-desktop">
         <ul class="hidden lg:flex list-none flex p-0 gap-4">
           <li class="text-center">
             <RouterLink
@@ -153,5 +153,10 @@ export default {
 .v-leave-to {
   opacity: 0;
   transform: translateY(-20px);
+}
+
+.menu-desktop li {
+  display: flex;
+  align-items: center;
 }
 </style>
