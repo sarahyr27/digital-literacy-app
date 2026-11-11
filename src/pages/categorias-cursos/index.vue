@@ -1,13 +1,12 @@
 <!-- Componente para acceder a las categorías principales de los cursos -->
 <script>
 import Box from '@/components/Box.vue'
+import { colorOrder } from '@/constants/colorOrder'
 
 export default {
   data() {
     return {
-      // Controla los colores de las cajas de categorías, en una futura versión habría que hacer esta utilidad más escalable. Utiliza los nombres de los estilos
-      // definidos en el componente Box.vue
-      boxVariants: ['limeFull', 'standardFull', 'orangeFull', 'pinkFull'],
+      colorOrder,
     }
   },
   components: {
@@ -30,7 +29,7 @@ export default {
       <Box
         v-for="(element, index) in content"
         :key="element.category"
-        :variant="boxVariants[index]"
+        :variant="`${colorOrder[index]}Full`"
         class="hover:scale-105 transition"
       >
         <template #content>

@@ -2,17 +2,20 @@
  este componente, se puede acceder a los cursos dentro de dicha sub-categoría -->
 <script>
 import AnchorTagButton from '@/components/AnchorTagButton.vue'
+import { colorOrder } from '@/constants/colorOrder'
 
 export default {
   data() {
     return {
+      // Color map used for categories with subcategories division to apply the correct color
+      // to the underline of the category title and their buttons
       colorMap: {
         pink: 'decoration-pink-500/50',
         lime: 'decoration-lime-500/50',
         orange: 'decoration-orange-500/50',
+        standard: 'decoration-sky-500/50',
       },
-      // Es
-      colors: ['pink', 'lime', 'orange'],
+      colorOrder,
     }
   },
   components: {
@@ -25,6 +28,9 @@ export default {
     currentCategory() {
       return this.content.find((element) => element.id === this.$route.params.subcategoria)
     },
+    currentCategoryIndex() {
+      return this.content.map((e) => e.category).indexOf(this.currentCategory.category)
+    },
   },
 }
 </script>
@@ -36,14 +42,18 @@ export default {
     <p class="text-xl">{{ currentCategory.description }}.</p>
     <p class="text-xl">Selecciona un recuadro para entrar en un curso.</p>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <!-- Category: Móviles y tablets -->
+      <!-- Rendered if the current category has subcategories -->
       <div
+        v-if="currentCategory.subcategories"
         v-for="(category, index) in currentCategory.subcategories"
         :key="category.id"
         class="flex flex-col gap-6 mt-8"
       >
         <h3
-          :class="['text-center font-bold text-xl underline decoration-4', colorMap[colors[index]]]"
+          :class="[
+            'text-center font-bold text-xl underline decoration-4',
+            colorMap[colorOrder[index]],
+          ]"
         >
           {{ category.name }}
         </h3>
@@ -53,11 +63,21 @@ export default {
             :key="course.title"
             :msg="course.title"
             :url="course.id ? `/categorias-cursos/subcategoria/curso/${course.id}` : undefined"
-            :variants="course.id ? [`${colors[index]}Light`] : ['unavailable']"
+            :variants="course.id ? [`${colorOrder[index]}Light`] : ['unavailable']"
             class="py-6 min-w-48 h-9/10"
           />
         </div>
       </div>
+      <!-- Rendered if the current category does not have subcategories -->
+      <AnchorTagButton
+        v-else
+        v-for="course in currentCategory.courses"
+        :key="course.title"
+        :msg="course.title"
+        :url="course.id ? `/categorias-cursos/subcategoria/curso/${course.id}` : undefined"
+        :variants="course.id ? [`${colorOrder[currentCategoryIndex]}Light`] : ['unavailable']"
+        class="py-6 min-w-48 h-9/10"
+      />
     </div>
   </div>
 </template>
