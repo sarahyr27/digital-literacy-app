@@ -26,7 +26,7 @@ export default {
       Aquí puedes ver los diferentes temas sobre los que puedes aprender. Selecciona un recuadro
       para ver los cursos disponibles dentro de esa categoría.
     </p>
-    <div class="grid grid-cols-1 md:grid-cols-4 2xl:grid-cols-2 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <Box
         v-for="(element, index) in content"
         :key="element.category"
@@ -34,13 +34,13 @@ export default {
         class="hover:scale-105 transition"
       >
         <template #content>
-          <a
-            :href="element.url"
+          <RouterLink
+            :to="`/categorias-cursos/subcategoria/${element.id}`"
             class="block w-full h-full no-underline text-inherit flex flex-col gap-4"
           >
             <h2 class="text-2xl font-bold">{{ element.category }}</h2>
             <p class="text-lg">{{ element.description }}</p>
-          </a>
+          </RouterLink>
         </template>
       </Box>
     </div>

@@ -31,7 +31,7 @@ export default {
 <template>
   <section
     :class="[
-      'flex flex-col items-center gap-4 rounded-xl p-6 text-center text-balance text-slate-800 text-2xl shadow-md shadow-slate-800/50 ',
+      'flex flex-col items-center gap-4 rounded-xl p-6 text-center  text-slate-800 text-2xl shadow-md shadow-slate-800/50 ',
       classes,
     ]"
   >

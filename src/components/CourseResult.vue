@@ -27,7 +27,7 @@ export default {
       </p>
       <AnchorTagButton
         msg="ir a cursos"
-        page="#/cursos"
+        url="/categorias-cursos"
         :variants="['dark', 'small']"
         @click="$emit('toggle-modal')"
       />
