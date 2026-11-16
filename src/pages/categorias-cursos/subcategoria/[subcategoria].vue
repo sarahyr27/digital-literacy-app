@@ -2,6 +2,7 @@
  este componente, se puede acceder a los cursos dentro de dicha sub-categoría -->
 <script>
 import AnchorTagButton from '@/components/AnchorTagButton.vue'
+import Breadcrumb from '@/components/Breadcrumb.vue'
 import { colorOrder } from '@/constants/colorOrder'
 
 export default {
@@ -20,6 +21,7 @@ export default {
   },
   components: {
     AnchorTagButton,
+    Breadcrumb,
   },
   props: {
     content: Object,
@@ -36,7 +38,15 @@ export default {
 </script>
 
 <template>
-  <div v-if="currentCategory" class="flex flex-col gap-6 text-slate-800">
+  <Breadcrumb :content="content" />
+  <RouterView
+    v-if="$route.params.curso"
+    :content="content"
+    class="min-h-full"
+    @find-current-course="$emit('find-current-course', $event)"
+    @toggle-modal="$emit('toggle-modal')"
+  />
+  <div v-if="currentCategory && !$route.params.curso" class="flex flex-col gap-6 text-slate-800">
     <h1 class="text-3xl font-bold">Cursos</h1>
     <h2 class="text-2xl font-bold">{{ currentCategory.category }}</h2>
     <p class="text-xl">{{ currentCategory.description }}.</p>
@@ -62,7 +72,11 @@ export default {
             v-for="course in category.courses"
             :key="course.title"
             :msg="course.title"
-            :url="course.id ? `/categorias-cursos/subcategoria/curso/${course.id}` : undefined"
+            :url="
+              course.id
+                ? `/categorias-cursos/subcategoria/${currentCategory.id}/curso/${course.id}`
+                : undefined
+            "
             :variants="course.id ? [`${colorOrder[index]}Light`] : ['unavailable']"
             class="py-6 min-w-48 h-9/10"
           />
@@ -74,7 +88,11 @@ export default {
         v-for="course in currentCategory.courses"
         :key="course.title"
         :msg="course.title"
-        :url="course.id ? `/categorias-cursos/subcategoria/curso/${course.id}` : undefined"
+        :url="
+          course.id
+            ? `/categorias-cursos/subcategoria/${currentCategory.id}/curso/${course.id}`
+            : undefined
+        "
         :variants="course.id ? [`${colorOrder[currentCategoryIndex]}Light`] : ['unavailable']"
         class="py-6 min-w-48 h-9/10"
       />

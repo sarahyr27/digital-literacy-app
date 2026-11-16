@@ -1,6 +1,7 @@
 <!-- Componente para acceder a las categorías principales de los cursos -->
 <script>
 import Box from '@/components/Box.vue'
+import Breadcrumb from '@/components/Breadcrumb.vue'
 import { colorOrder } from '@/constants/colorOrder'
 
 export default {
@@ -11,6 +12,7 @@ export default {
   },
   components: {
     Box,
+    Breadcrumb,
   },
   props: {
     content: Object,
@@ -20,6 +22,7 @@ export default {
 
 <template>
   <div class="flex flex-col gap-6 text-slate-800">
+    <Breadcrumb :content="content" />
     <h1 class="text-3xl font-bold">Cursos</h1>
     <p class="text-xl">
       Aquí puedes ver los diferentes temas sobre los que puedes aprender. Selecciona un recuadro

@@ -22,7 +22,7 @@
               },
               {
                 "type": "content",
-                "textContent": "Para encender el ordenador correctamente, primero asegúrate de que esté conectado a la corriente. Después, localiza el botón de encendido, normalmente identificado con un símbolo circular con una línea vertical. Presiona el botón una sola vez y espera unos segundos mientras el sistema inicia. Durante el encendido, es normal que la pantalla tarde un poco en mostrar información. Evita presionar varias veces el botón, ya que esto puede causar errores o impedir que el ordenador arranque correctamente.",
+                "textContent": "Para encender el ordenador correctamente, primero asegúrate de que esté conectado a la corriente. Después, localiza el botón de encendido/apagado, que puede suele tener este aspecto: ⏻. Presiona el botón una sola vez y espera unos segundos mientras el sistema inicia. Durante el encendido, es normal que la pantalla tarde un poco en mostrar información. Evita presionar varias veces el botón, ya que esto puede causar errores o impedir que el ordenador arranque correctamente.",
                 "imgSource": "/images/img4.webp",
                 "imgAlternativeText": "ordenador de mesa"
               },
@@ -34,7 +34,7 @@
               },
               {
                 "type": "content",
-                "textContent": "Aunque pueda parecer más rápido, no es recomendable apagar el ordenador manteniendo presionado el botón de encendido. Hacer esto puede provocar pérdida de información, daños en archivos o errores en el sistema. El botón de encendido solo debe utilizarse de esta manera cuando el ordenador no responde o se encuentra bloqueado. Siempre que sea posible, utiliza la opción “Apagar” desde el menú del sistema para realizar un cierre seguro y completo. <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
+                "textContent": "Aunque pueda parecer más rápido, no es recomendable apagar el ordenador manteniendo presionado el botón de encendido. Hacer esto puede provocar pérdida de información, daños en archivos o errores en el sistema. El botón de encendido solo debe utilizarse de esta manera cuando el ordenador no responde o se encuentra bloqueado. Siempre que sea posible, utiliza la opción “Apagar” desde el menú del sistema para realizar un cierre seguro y completo.<br /><br /> <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
                 "imgSource": "/images/img4.webp",
                 "imgAlternativeText": "ordenador de mesa"
               },
@@ -227,7 +227,7 @@
           },
           {
             "type": "content",
-            "textContent": "Recuperar el equilibrio es posible con pequeños cambios. Desactiva las notificaciones que no sean importantes, activa el modo “No molestar” en ciertos momentos y establece horarios sin pantallas, por ejemplo durante las comidas. Procura no dejar el móvil en el dormitorio por la noche, haz pausas durante el día y consulta la herramienta de “Tiempo de uso” o “Bienestar digital” de tu dispositivo para saber cuánto tiempo pasas conectado. <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
+            "textContent": "Recuperar el equilibrio es posible con pequeños cambios. Desactiva las notificaciones que no sean importantes, activa el modo “No molestar” en ciertos momentos y establece horarios sin pantallas, por ejemplo durante las comidas. Procura no dejar el móvil en el dormitorio por la noche, haz pausas durante el día y consulta la herramienta de “Tiempo de uso” o “Bienestar digital” de tu dispositivo para saber cuánto tiempo pasas conectado.<br /><br /> <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
             "imgSource": "/images/img5.webp",
             "imgAlternativeText": "persona usando un móvil rodeada de notificaciones"
           },
@@ -441,7 +441,7 @@
           },
           {
             "type": "content",
-            "textContent": "Para usar el correo de forma segura, utiliza una contraseña larga y exclusiva para tu cuenta, activa la autenticación en dos pasos, no abras el correo desde ordenadores o redes wifi públicas que no sean de confianza y cierra siempre la sesión cuando termines. Recuerda que ninguna empresa seria te pedirá tu contraseña por correo electrónico. <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
+            "textContent": "Para usar el correo de forma segura, utiliza una contraseña larga y exclusiva para tu cuenta, activa la autenticación en dos pasos, no abras el correo desde ordenadores o redes wifi públicas que no sean de confianza y cierra siempre la sesión cuando termines. Recuerda que ninguna empresa seria te pedirá tu contraseña por correo electrónico.<br /><br /> <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
             "imgSource": "/images/img6.webp",
             "imgAlternativeText": "sobre de correo electrónico con un candado"
           },
@@ -599,7 +599,7 @@
           },
           {
             "type": "content",
-            "textContent": "Para protegerte, adquiere unos primeros hábitos: desconfía de lo que te provoque una reacción emocional muy fuerte, lee la noticia completa y no solo el titular, comprueba quién la publica y en qué fecha, y busca si otros medios fiables cuentan lo mismo. Y sobre todo, si tienes dudas, no lo compartas: frenar un bulo es tan sencillo como no reenviarlo. <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
+            "textContent": "Para protegerte, adquiere unos primeros hábitos: desconfía de lo que te provoque una reacción emocional muy fuerte, lee la noticia completa y no solo el titular, comprueba quién la publica y en qué fecha, y busca si otros medios fiables cuentan lo mismo. Y sobre todo, si tienes dudas, no lo compartas: frenar un bulo es tan sencillo como no reenviarlo.<br /><br /> <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
             "imgSource": "/images/img7.webp",
             "imgAlternativeText": "persona leyendo noticias en una tablet"
           },

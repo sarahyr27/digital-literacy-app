@@ -24,6 +24,12 @@ export default {
   mounted() {
     this.windowWidth = window.innerWidth
   },
+  // Previene hacer scroll si el modal del menu está abierto
+  watch: {
+    isMenuOpen(newValue) {
+      document.body.style.overflow = newValue ? 'hidden' : ''
+    },
+  },
 }
 </script>
 
@@ -35,8 +41,8 @@ export default {
       <!-- Menú escritorio: oculto en sm -->
       <div class="flex items-center mx-4 gap-4 menu-desktop">
         <RouterLink to="/" class="shrink-0 z-20"
-          ><div class="bg-sky-300 rounded-2xl">
-            <img src="/images/logo.svg" alt="Logo" class="mt-10 p-4" /></div
+          ><div class="bg-sky-300 rounded-2xl mt-10">
+            <img src="/images/logo.svg" alt="Logo" class="p-4" /></div
         ></RouterLink>
         <ul class="hidden lg:flex list-none flex p-0 gap-10">
           <li class="text-center">
@@ -98,12 +104,13 @@ export default {
         class="absolute left-1/2 -translate-x-1/2 font-bold flex z-10"
       >
         <ul
-          class="bg-sky-100 rounded-b-xl text-slate-800 text-2xl flex flex-col justify-between gap-3 p-6 pt-10 w-screen h-[calc(100dvh-6rem)]"
+          class="bg-sky-100 rounded-b-xl text-slate-800 text-2xl flex flex-col justify-around p-6 pt-10 w-screen h-[calc(100dvh-6rem)]"
         >
           <li class="text-center">
             <RouterLink
               to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
+              @click="toggleMenu"
               >Página Principal</RouterLink
             >
           </li>
@@ -111,6 +118,7 @@ export default {
             <RouterLink
               to="/categorias-cursos"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
+              @click="toggleMenu"
               >Cursos</RouterLink
             >
           </li>
@@ -118,6 +126,7 @@ export default {
             <RouterLink
               to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
+              @click="toggleMenu"
               >Ayuda</RouterLink
             >
           </li>
@@ -125,6 +134,7 @@ export default {
             <RouterLink
               to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
+              @click="toggleMenu"
               >Registrarse</RouterLink
             >
           </li>
@@ -132,6 +142,7 @@ export default {
             <RouterLink
               to="/"
               class="inline-block hover:scale-105 hover:transform transition no-underline"
+              @click="toggleMenu"
               >Iniciar Sesión</RouterLink
             >
           </li>

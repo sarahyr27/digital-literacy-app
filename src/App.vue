@@ -83,7 +83,6 @@ export default {
     modalActive(newVal) {
       document.body.style.overflow = newVal ? 'hidden' : ''
     },
-    //Resetea el curso actual cuando no estemo en la página de un curso
   },
   data() {
     return {
@@ -107,6 +106,7 @@ export default {
   <header><Header /></header>
   <main class="my-16 mx-12 sm:mx-26">
     <RouterView
+      class="min-h-full"
       :content="content"
       @toggle-modal="toggleModal"
       @find-current-course="findCurrentCourse"
