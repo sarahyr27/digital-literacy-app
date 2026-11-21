@@ -1,9 +1,10 @@
 <!-- Componente tipo modal para los test, cuando se abre sabré que curso recibirá por la url en la que se encuentra. Esta
  información se maneja en App.vue y este componente la recibe como una propiedad -->
 <script>
-import CourseContent from './CourseContent.vue'
+import CourseTheory from './CourseTheory.vue'
 import CourseResult from './CourseResult.vue'
 import CourseTest from './CourseTest.vue'
+import CourseSimulation from './CourseSimulation.vue'
 
 export default {
   data() {
@@ -14,12 +15,14 @@ export default {
       receivedAnswer: null,
       // Este es el array principal, que enviaremos a App para evaluar las respuestas
       inputAnswers: [],
+      simulationCompleted: false,
     }
   },
   components: {
-    CourseContent,
+    CourseTheory,
     CourseTest,
     CourseResult,
+    CourseSimulation,
   },
   props: {
     currentCourse: Object,
@@ -43,6 +46,9 @@ export default {
     deleteReceivedAnswer() {
       this.inputAnswers.pop()
     },
+    updateSimulationCompletionStatus(value) {
+      this.simulationCompleted = value
+    },
   },
   computed: {
     testStartIndex() {
@@ -51,8 +57,11 @@ export default {
     currentPageComponent() {
       const page = this.currentCourse.pages[this.currentPage]
       const components = {
-        content: CourseContent,
+        theory: CourseTheory,
         test: CourseTest,
+        simulationFirst: CourseSimulation,
+        simulation: CourseSimulation,
+        simulationLast: CourseSimulation,
         result: CourseResult,
       }
       const component = components[page.type]
@@ -62,6 +71,27 @@ export default {
       }
 
       return component
+    },
+    currentCourseSection() {
+      const page = this.currentCourse.pages[this.currentPage]
+      const types = {
+        theory: 'Teoría',
+        test: 'Prueba',
+        simulationFirst: 'Simulación',
+        simulation: 'Simulación',
+        simulationLast: 'Simulación',
+        result: 'Resultado',
+      }
+      const courseSection = types[page.type]
+
+      if (!courseSection) {
+        throw new Error(`Unsupported course section type: ${page.type}`)
+      }
+
+      return courseSection
+    },
+    pageType() {
+      return this.currentCourse.pages[this.currentPage].type
     },
   },
   watch: {
@@ -82,48 +112,54 @@ export default {
     >
       <!-- Caja curso -->
       <div
-        class="relative overflow-scroll bg-white rounded-xl shadow-md shadow-slate-800/50 w-9/10 h-9/10 p-6 flex flex-col"
+        class="relative overflow-scroll bg-white rounded-xl shadow-md shadow-slate-800/50 w-9/10 h-9/10 p-8 flex flex-col justify-between gap-4"
       >
         <!-- Botón de cerrar -->
         <button
-          class="absolute right-6 text-sm md:text-base cursor-pointer self-end bg-pink-500/50 rounded-xl px-2 font-bold flex items-center gap-1 shadow-md shadow-slate-800/50 hover:bg-pink-600/50 hover:text-white hover:scale-105 transition"
+          class="absolute top-6 right-6 md:text-2xl cursor-pointer bg-pink-500/50 rounded-xl p-2 px-4 font-bold flex items-center gap-1 shadow-md shadow-slate-800/50 hover:bg-pink-600/50 hover:text-white hover:scale-105 transition"
           @click="$emit('toggle-modal')"
         >
           Cerrar <span class="text-2xl">&#10799;</span>
         </button>
         <!-- Título curso -->
-        <header
-          class="text-left md:text-center text-2xl md:text-3xl text-slate-900 font-bold self-start md:self-center max-w-1/2 md:max-width-4/5"
-        >
-          <h1>{{ currentCourse.title }}</h1>
+        <header class="text-2xl md:text-3xl text-slate-900 font-bold text-left max-w-3/4 pl-6">
+          <h1>Curso: {{ currentCourse.title }}</h1>
+          <h2 class="text-xl md:text-2xl text-slate-700 font-semibold text-left mt-2">
+            Sección - {{ currentCourseSection }}
+          </h2>
         </header>
-        <!-- Espacio para el uso de otro componente, maneja la paginación y contenido de la página -->
-        <section class="flex items-center justify-center h-full">
-          <component
-            :is="currentPageComponent"
-            :key="currentPage"
-            :page="currentCourse.pages[currentPage]"
-            :areAnswersCorrect="areAnswersCorrect"
-            @update-received-answer="updateReceivedAnswer"
-            @toggle-modal="$emit('toggle-modal')"
-            @reset-test="$emit('reset-test')"
-            @reset-course="$emit('reset-course')"
-          />
-        </section>
+        <!-- Contenido de la página -->
+        <div class="w-[100%] h-[72%] overflow-y-scroll flex justify-center align-center">
+          <section>
+            <component
+              :is="currentPageComponent"
+              :key="currentPage"
+              :page="currentCourse.pages[currentPage]"
+              :areAnswersCorrect="areAnswersCorrect"
+              @update-received-answer="updateReceivedAnswer"
+              @is-simulation-completed="updateSimulationCompletionStatus"
+              @toggle-modal="$emit('toggle-modal')"
+              @reset-test="$emit('reset-test')"
+              @reset-course="$emit('reset-course')"
+              @next-page="$emit('next-page')"
+            />
+          </section>
+        </div>
+
         <!-- Botones de paginación -->
         <div class="flex justify-between w-full">
           <button
             id="prev-page"
             :disabled="firstPage"
-            class="text-sm md:text-base cursor-pointer self-end bg-pink-500/50 rounded-xl px-2 font-bold flex items-center gap-1 shadow-md shadow-slate-800/50 hover:bg-pink-600/50 hover:text-white hover:scale-105 transition disabled:bg-slate-800/50 disabled:text-white disabled:cursor-not-allowed disabled:hover:scale-100"
+            class="text-lg md:text-2xl cursor-pointer self-end bg-pink-500/50 rounded-xl p-2 px-4 font-bold flex items-center gap-1 shadow-md shadow-slate-800/50 hover:bg-pink-600/50 hover:text-white hover:scale-105 transition disabled:bg-slate-800/50 disabled:text-white disabled:cursor-not-allowed disabled:hover:scale-100"
             @click="($emit('prev-page'), deleteReceivedAnswer())"
           >
             <span class="text-xl">🡨</span> Anterior
           </button>
           <button
             id="next-page"
-            :disabled="lastPage"
-            class="text-sm md:text-base cursor-pointer self-end bg-pink-500/50 rounded-xl px-2 font-bold flex items-center gap-1 shadow-md shadow-slate-800/50 hover:bg-pink-600/50 hover:text-white hover:scale-105 transition disabled:bg-slate-800/50 disabled:text-white disabled:cursor-not-allowed disabled:hover:scale-100"
+            :disabled="lastPage || (pageType === 'simulation' && !simulationCompleted)"
+            class="text-lg md:text-2xl cursor-pointer self-end bg-pink-500/50 rounded-xl p-2 px-4 font-bold flex items-center gap-1 shadow-md shadow-slate-800/50 hover:bg-pink-600/50 hover:text-white hover:scale-105 transition disabled:bg-slate-800/50 disabled:text-white disabled:cursor-not-allowed disabled:hover:scale-100"
             @click="(saveReceivedAnswer(), $emit('next-page', inputAnswers))"
           >
             Siguiente <span class="text-2xl">🡪</span>

@@ -42,7 +42,7 @@ export default {
       <div class="flex items-center mx-4 gap-4 menu-desktop">
         <RouterLink to="/" class="shrink-0 z-20"
           ><div class="bg-sky-300 rounded-2xl mt-10">
-            <img src="/images/logo.svg" alt="Logo" class="p-4" /></div
+            <img src="/images/logo.png" alt="Logo" class="p-4" /></div
         ></RouterLink>
         <ul class="hidden lg:flex list-none flex p-0 gap-10">
           <li class="text-center">

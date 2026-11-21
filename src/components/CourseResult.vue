@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col items-center justify-center h-full">
     <div
       v-if="areAnswersCorrect"
       class="flex flex-col p-6 gap-4 items-center w-2/3 text-center mx-auto"

@@ -106,7 +106,6 @@ export default {
   <header><Header /></header>
   <main class="my-16 mx-12 sm:mx-26">
     <RouterView
-      class="min-h-full"
       :content="content"
       @toggle-modal="toggleModal"
       @find-current-course="findCurrentCourse"

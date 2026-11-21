@@ -6,6 +6,7 @@ import Breadcrumb from '@/components/Breadcrumb.vue'
 import { colorOrder } from '@/constants/colorOrder'
 
 export default {
+  inheritAttrs: false,
   data() {
     return {
       // Color map used for categories with subcategories division to apply the correct color
@@ -42,11 +43,15 @@ export default {
   <RouterView
     v-if="$route.params.curso"
     :content="content"
-    class="min-h-full"
+    class="min-h-[80vh] md:min-h-[70vh]"
     @find-current-course="$emit('find-current-course', $event)"
     @toggle-modal="$emit('toggle-modal')"
   />
-  <div v-if="currentCategory && !$route.params.curso" class="flex flex-col gap-6 text-slate-800">
+  <div
+    v-bind="$attrs"
+    v-if="currentCategory && !$route.params.curso"
+    class="flex flex-col gap-6 text-slate-800"
+  >
     <h1 class="text-3xl font-bold">Cursos</h1>
     <h2 class="text-2xl font-bold">{{ currentCategory.category }}</h2>
     <p class="text-xl">{{ currentCategory.description }}.</p>

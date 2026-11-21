@@ -46,11 +46,11 @@ export default {
 </script>
 
 <template>
-  <div class="p-6 flex flex-col items-center text-center gap-6">
+  <div class="p-6 flex flex-col items-center text-center gap-6 h-full justify-center">
     <!-- Encabezado: Pregunta e información sobre tipo de pregunta -->
     <div>
       <h2 class="text-xl md:text-2xl font-medium">{{ this.page.fullQuestion }}</h2>
-      <div class="text-sm md:text-base">
+      <div class="text-md md:text-lg">
         <p v-if="isQuestionMultipleChoice">
           Pregunta de selección múltiple: Selecciona todas las respuestas correctas
         </p>
@@ -61,7 +61,7 @@ export default {
     <form action="" class="flex flex-col items-start text-left gap-2 text-base md:text-lg">
       <label
         v-for="element in this.page.options"
-        class="w-full border border-lime-500/50 border-4 rounded-xl p-4 hover:border-lime-500 flex items-center"
+        class="w-full border border-lime-500/50 border-4 rounded-xl px-4 hover:border-lime-500 flex items-center"
       >
         <!-- Si la pregunta es de respuesta múltiple, los inputs serán checkboxes, sino serán de tipo radio (para una única elección) -->
         <input
