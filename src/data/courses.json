@@ -15,28 +15,57 @@
             "imgAlternativeText": "ordenador de mesa",
             "pages": [
               {
-                "type": "content",
+                "type": "theory",
                 "textContent": "Apagar el ordenador correctamente no solo es una buena práctica, sino también algo esencial para garantizar un buen rendimiento y evitar causarle daños al sistema. En este curso, aprenderás cómo apagar tu ordenador de la manera correcta, garantizando un apagado completo y eficiente.",
-                "imgSource": "/images/img4.webp",
+                "imgSource": "/images/desktop-computer.jpg",
                 "imgAlternativeText": "ordenador de mesa"
               },
               {
-                "type": "content",
-                "textContent": "Para encender el ordenador correctamente, primero asegúrate de que esté conectado a la corriente. Después, localiza el botón de encendido, normalmente identificado con un símbolo circular con una línea vertical. Presiona el botón una sola vez y espera unos segundos mientras el sistema inicia. Durante el encendido, es normal que la pantalla tarde un poco en mostrar información. Evita presionar varias veces el botón, ya que esto puede causar errores o impedir que el ordenador arranque correctamente.",
-                "imgSource": "/images/img4.webp",
-                "imgAlternativeText": "ordenador de mesa"
+                "type": "theory",
+                "textContent": "Para encender el ordenador correctamente, primero asegúrate de que esté conectado a la corriente. Después, localiza el botón de encendido/apagado, que suele tener este aspecto: ⏻. Presiona el botón una sola vez y espera unos segundos mientras el sistema inicia. Durante el encendido, es normal que la pantalla tarde un poco en mostrar información. Evita presionar varias veces el botón, ya que esto puede causar errores o impedir que el ordenador arranque correctamente.",
+                "imgSource": "/images/plugged-computer.jpg",
+                "imgAlternativeText": "ordenador portátil conectado a la corriente"
               },
               {
-                "type": "content",
-                "textContent": "Para apagar el ordenador de forma segura, primero guarda cualquier documento o trabajo que tengas abierto. Después, busca el menú de inicio en la parte inferior de la pantalla y selecciona la opción “Apagar”. El ordenador comenzará el proceso de cierre automáticamente. Espera unos segundos hasta que la pantalla se apague por completo antes de desconectar el equipo de la corriente. Apagar el ordenador correctamente ayuda a proteger tus archivos y mantener el sistema funcionando correctamente.",
-                "imgSource": "/images/img4.webp",
-                "imgAlternativeText": "ordenador de mesa"
+                "type": "theory",
+                "textContent": "Para apagar el ordenador de forma segura, primero guarda cualquier documento o trabajo que tengas abierto. Después, busca el menú de inicio, que podrá estar ubicado en partes diferentes de la pantalla dependiendo del sistema operativo del ordenador (es decir, el el sistema o programa que te permite interactuar con el ordenador mediente el ratón, la pantalla y el teclado). Las ubicaciones más frecuentes son en la esquina superior derecha o la esquina inferior izquierda. Una vez localizado el menú de inicio, selecciona la opción “Apagar”.<br/><br/> El ordenador comenzará el proceso de cierre automáticamente. Espera unos segundos hasta que la pantalla se apague por completo. Apagar el ordenador correctamente ayuda a proteger tus archivos y mantener el sistema funcionando correctamente.",
+                "imgSource": "/images/turn-on-off-button-desktop-computer.jpg",
+                "imgAlternativeText": "botón de encendido/apagado de ordenador de mesa"
               },
               {
-                "type": "content",
-                "textContent": "Aunque pueda parecer más rápido, no es recomendable apagar el ordenador manteniendo presionado el botón de encendido. Hacer esto puede provocar pérdida de información, daños en archivos o errores en el sistema. El botón de encendido solo debe utilizarse de esta manera cuando el ordenador no responde o se encuentra bloqueado. Siempre que sea posible, utiliza la opción “Apagar” desde el menú del sistema para realizar un cierre seguro y completo. <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
-                "imgSource": "/images/img4.webp",
-                "imgAlternativeText": "ordenador de mesa"
+                "type": "theory",
+                "textContent": "Aunque pueda parecer más rápido, no es recomendable apagar el ordenador manteniendo presionado el botón de encendido. Hacer esto puede provocar pérdida de información, daños en archivos o errores en el sistema. El botón de encendido solo debe utilizarse de esta manera cuando el ordenador no responde o se encuentra bloqueado. Siempre que sea posible, utiliza la opción “Apagar” desde el menú del sistema para realizar un cierre seguro y completo.<br /><br /> <span class=\"font-bold text-sky-600\">En la siguiente página encontrarás una simulación en la que podrás practicar lo que has aprendido hasta ahora.</span>",
+                "imgSource": "/images/turn-on-computer.jpg",
+                "imgAlternativeText": "botón de encendido/apagado de ordenador portátil"
+              },
+              {
+                "type": "simulationFirst",
+                "textContent": "En esta simulación podrás practicar cómo apagar un ordenador con sistema operativo Ubuntu. Interactúa con la imagen con tu cursor, posándolo sobre las secciones señalizadas o haciendo click sobre ellas. Recuerda que este es un entorno seguro de práctica, por lo que puedes practicar sin preocupaciones ya que no se realizarán cambios reales en tu ordenador.<br /><br /> Si estás viendo esta página desde un móvil o tablet, te recomendamos utilizar el dispositivo en posición horizontal, o cambiar a un ordenador para poder interactuar con la simulación de manera más cómoda. <br /><br /> <span class=\"font-bold text-pink-600\"> Haz click en siguiente para ir a la diapositiva de simulación</span>"
+              },
+              {
+                "type": "simulation",
+                "svgWidth": "507",
+                "svgHeight": "285",
+                "svgContent": "<rect style=\"fill:none;stroke-width:1.14496;stroke-dasharray:none;stroke-opacity:1\" class=\"notClicked\" width=\"70.783394\" height=\"13.053024\" x=\"436.37955\" y=\"0.57248002\" ry=\"6.5265121\" />",
+                "imgSource": "/images/simulationImages/ordenadores-encendido-y-apagado/simulation-ubuntu-1.png"
+              },
+              {
+                "type": "simulation",
+                "svgWidth": "1919",
+                "svgHeight": "1079",
+                "svgContent": "<circle style=\"fill:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1\" class=\"notClicked\" cx=\"1846.1178\" cy=\"126.00924\" r=\"34.666298\" />",
+                "imgSource": "/images/simulationImages/ordenadores-encendido-y-apagado/simulation-ubuntu-2.png"
+              },
+              {
+                "type": "simulation",
+                "svgWidth": "1919",
+                "svgHeight": "1079",
+                "svgContent": "<rect style=\"fill:none;stroke-width:4;stroke-dasharray:none\" class=\"notClicked\" width=\"548.56238\" height=\"60.176819\" x=\"1295.9683\" y=\"410.96347\" ry=\"21.940582\" />",
+                "imgSource": "/images/simulationImages/ordenadores-encendido-y-apagado/simulation-ubuntu-3.png"
+              },
+              {
+                "type": "simulationLast",
+                "textContent": "Felicidades, has completado la simulación.<br/><br/> Ahora ya sabes cómo apagar correctamente un ordendor con sistema operativo Ubuntu, ¡bien hecho! <br /><br /> <span class=\"font-bold text-pink-600\"> En la siguiente y última sección deberás completar una prueba corta para comprobar tus conocimientos, y poder finalizar el curso.</span>"
               },
               {
                 "type": "test",
@@ -121,105 +150,7 @@
           },
           {
             "title": "Usar el ratón",
-            "id": "usar-el-raton",
-            "description": "En este curso aprenderás las funciones básicas del ratón y cómo utilizarlo para interactuar con tu ordenador.",
-            "imgSource": "/images/img4.webp",
-            "imgAlternativeText": "ordenador de mesa",
-            "pages": [
-              {
-                "type": "content",
-                "textContent": "El ratón es una de las herramientas principales para utilizar un ordenador. Permite mover el cursor por la pantalla y seleccionar diferentes elementos, como botones, carpetas o programas. Aprender a usar el ratón correctamente hará que navegar por el ordenador sea mucho más sencillo y cómodo.",
-                "imgSource": "/images/img4.webp",
-                "imgAlternativeText": "ordenador de mesa"
-              },
-              {
-                "type": "content",
-                "textContent": "Para mover el cursor, simplemente desliza el ratón suavemente sobre una superficie plana. El cursor se moverá en la misma dirección que el ratón. Intenta hacer movimientos lentos y controlados hasta sentirte cómodo manejándolo.",
-                "imgSource": "/images/img4.webp",
-                "imgAlternativeText": "ordenador de mesa"
-              },
-              {
-                "type": "content",
-                "textContent": "El botón izquierdo del ratón se utiliza para seleccionar elementos. Un solo clic sirve para seleccionar algo, mientras que un doble clic suele utilizarse para abrir carpetas o programas. Es importante hacer los clics de manera suave y rápida.",
-                "imgSource": "/images/img4.webp",
-                "imgAlternativeText": "ordenador de mesa"
-              },
-              {
-                "type": "content",
-                "textContent": "El botón derecho del ratón permite abrir menús con opciones adicionales. Cuando haces clic derecho sobre un elemento, aparecerá un pequeño menú con distintas acciones disponibles. También puedes usar la rueda central del ratón para desplazarte hacia arriba y abajo en páginas o documentos. <span class=\"font-bold text-pink-500\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
-                "imgSource": "/images/img4.webp",
-                "imgAlternativeText": "ordenador de mesa"
-              },
-              {
-                "type": "test",
-                "title": "mover cursor",
-                "fullQuestion": "¿Qué debes hacer para mover el cursor por la pantalla?",
-                "options": [
-                  {
-                    "id": 0,
-                    "answer": "Presionar varias veces el teclado",
-                    "isCorrect": false
-                  },
-                  {
-                    "id": 1,
-                    "answer": "Mover el ratón sobre una superficie plana",
-                    "isCorrect": true
-                  },
-                  {
-                    "id": 2,
-                    "answer": "Apagar y encender el ordenador",
-                    "isCorrect": false
-                  }
-                ]
-              },
-              {
-                "type": "test",
-                "title": "clic izquierdo",
-                "fullQuestion": "¿Para qué se utiliza normalmente el botón izquierdo del ratón?",
-                "options": [
-                  {
-                    "id": 0,
-                    "answer": "Para apagar el ordenador",
-                    "isCorrect": false
-                  },
-                  {
-                    "id": 1,
-                    "answer": "Para seleccionar y abrir elementos",
-                    "isCorrect": true
-                  },
-                  {
-                    "id": 2,
-                    "answer": "Para subir el volumen",
-                    "isCorrect": false
-                  }
-                ]
-              },
-              {
-                "type": "test",
-                "title": "clic derecho",
-                "fullQuestion": "¿Qué ocurre normalmente al hacer clic derecho sobre un elemento?",
-                "options": [
-                  {
-                    "id": 0,
-                    "answer": "Se apaga la pantalla",
-                    "isCorrect": false
-                  },
-                  {
-                    "id": 1,
-                    "answer": "Se abre automáticamente Internet",
-                    "isCorrect": false
-                  },
-                  {
-                    "id": 2,
-                    "answer": "Aparece un menú con opciones adicionales",
-                    "isCorrect": true
-                  }
-                ]
-              },
-              {
-                "type": "result"
-              }
-            ]
+            "id": ""
           },
           {
             "title": "Usar el teclado",
@@ -291,75 +222,201 @@
     "category": "Higiene Digital",
     "id": "higiene-digital",
     "description": "Adquiere hábitos seguros y saludables para manejar y proteger tu identidad, tus datos y tus sistemas",
-    "subcategories": [
+    "courses": [
       {
-        "name": "Protección de datos",
-        "courses": [
+        "title": "Sobreestimulación digital e hiperconexión",
+        "id": "sobreestimulacion-digital-e-hiperconexion",
+        "description": "En este curso aprenderás a reconocer el exceso de estímulos digitales y a recuperar el control sobre el tiempo que pasas conectado.",
+        "imgSource": "/images/crowd-with-phones.jpg",
+        "imgAlternativeText": "multitud usando móviles",
+        "pages": [
           {
-            "title": "Sobreestimulación digital e hiperconexión",
-            "id": ""
+            "type": "theory",
+            "textContent": "Vivimos rodeados de pantallas, mensajes y avisos que reclaman nuestra atención a todas horas. Aunque la tecnología es muy útil, un uso sin límites puede cansarnos, estresarnos y quitarnos tiempo para lo que realmente importa. En este curso aprenderás qué son la sobreestimulación digital y la hiperconexión, cómo detectarlas y qué hábitos sencillos te ayudarán a evitarlas.",
+            "imgSource": "/images/phone-addiction.jpg",
+            "imgAlternativeText": "personas usando el móvil en el transpote público"
           },
           {
-            "title": "Herramientas esenciales de la protección digital",
-            "id": ""
+            "type": "theory",
+            "textContent": "La sobreestimulación digital ocurre cuando recibimos demasiada información y demasiados estímulos a la vez: notificaciones, mensajes, correos, vídeos, noticias o anuncios. El cerebro no tiene tiempo de descansar y procesar todo ese contenido, lo que puede provocar cansancio, dificultad para concentrarse e irritabilidad.",
+            "imgSource": "/images/notifications.jpg",
+            "imgAlternativeText": "notificaciones de aplicaciones en pantalla de móvil"
           },
           {
-            "title": "Configuración y gestión del cortafuegos o firewall",
-            "id": ""
+            "type": "theory",
+            "textContent": "La hiperconexión consiste en estar disponible y conectado de forma casi permanente. Algunas señales son mirar el móvil continuamente sin un motivo concreto, sentir ansiedad cuando no lo tienes cerca, responder mensajes a cualquier hora o usar el teléfono justo antes de dormir y nada más despertar.",
+            "imgSource": "/images/phone-addiction-2.jpg",
+            "imgAlternativeText": "chica mirando un móvil"
           },
           {
-            "title": "Los antivirus y su uso",
-            "id": ""
+            "type": "theory",
+            "textContent": "El exceso de conexión puede afectar a nuestra salud y bienestar. Entre sus efectos más comunes están dormir peor, sentir más estrés, tener menos capacidad de atención y dedicar menos tiempo a la familia y los amigos. Usar pantallas por la noche es especialmente perjudicial, porque la luz que emiten dificulta conciliar el sueño.",
+            "imgSource": "/images/phone-addiction-3.jpg",
+            "imgAlternativeText": "niño usando un móvil"
           },
           {
-            "title": "Administradores de contraseñas",
-            "id": ""
+            "type": "theory",
+            "textContent": "Recuperar el equilibrio es posible con pequeños cambios. Desactiva las notificaciones que no sean importantes, activa el modo “No molestar” en ciertos momentos y establece horarios sin pantallas, por ejemplo durante las comidas. Procura no dejar el móvil en el dormitorio por la noche, haz pausas durante el día y consulta la herramienta de “Tiempo de uso” o “Bienestar digital” de tu dispositivo para saber cuánto tiempo pasas conectado.<br /><br /> <span class=\"font-bold text-orange-600\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
+            "imgSource": "/images/do-not-disturb-screen.jpg",
+            "imgAlternativeText": "pantalla con el modo No molestar activo"
           },
           {
-            "title": "Autenticación multifactor",
-            "id": ""
+            "type": "test",
+            "title": "sobreestimulacion",
+            "fullQuestion": "¿Qué es la sobreestimulación digital?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Recibir demasiados estímulos digitales (avisos, mensajes, contenidos) sin tiempo para descansar",
+                "isCorrect": true
+              },
+              {
+                "id": 1,
+                "answer": "Usar el ordenador solo para trabajar",
+                "isCorrect": false
+              },
+              {
+                "id": 2,
+                "answer": "Tener un móvil con la pantalla muy grande",
+                "isCorrect": false
+              }
+            ]
           },
           {
-            "title": "Respaldo de archivos y datos",
-            "id": ""
+            "type": "test",
+            "title": "senales hiperconexion",
+            "fullQuestion": "¿Cuál de estas es una señal de hiperconexión?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Dejar el móvil en casa cuando sales a pasear",
+                "isCorrect": false
+              },
+              {
+                "id": 1,
+                "answer": "Mirar el móvil constantemente sin un motivo concreto",
+                "isCorrect": true
+              },
+              {
+                "id": 2,
+                "answer": "Consultar el correo una vez al día",
+                "isCorrect": false
+              },
+              {
+                "id": 3,
+                "answer": "Responder mensajes a cualquier hora del día o de la noche",
+                "isCorrect": true
+              }
+            ]
           },
           {
-            "title": "Mantener aplicaciones y programas actualizados",
-            "id": ""
+            "type": "test",
+            "title": "efectos pantallas noche",
+            "fullQuestion": "¿Por qué es mala idea usar pantallas justo antes de dormir?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Porque gastan mucha batería",
+                "isCorrect": false
+              },
+              {
+                "id": 1,
+                "answer": "Porque pueden dificultar conciliar el sueño",
+                "isCorrect": true
+              },
+              {
+                "id": 2,
+                "answer": "Porque el dispositivo se estropea",
+                "isCorrect": false
+              }
+            ]
           },
           {
-            "title": "Configuración de la red en casa",
-            "id": ""
+            "type": "test",
+            "title": "habitos saludables",
+            "fullQuestion": "¿Qué hábito te ayuda a reducir la sobreestimulación?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Activar todas las notificaciones de todas las aplicaciones",
+                "isCorrect": false
+              },
+              {
+                "id": 1,
+                "answer": "Dormir con el móvil debajo de la almohada",
+                "isCorrect": false
+              },
+              {
+                "id": 2,
+                "answer": "Desactivar notificaciones no importantes y establecer horarios sin pantallas",
+                "isCorrect": true
+              }
+            ]
           },
           {
-            "title": "Uso seguro de redes públicas",
-            "id": ""
-          },
-          {
-            "title": "Red Privada Virtual (VPN)",
-            "id": ""
-          },
-          {
-            "title": "Huella digital I: primeros pasos",
-            "id": ""
-          },
-          {
-            "title": "Huella digital II: configuración de privacidad en redes sociales",
-            "id": ""
-          },
-          {
-            "title": "Huella digital III: permisos de sitios y aplicaciones",
-            "id": ""
-          },
-          {
-            "title": "Huella digital IV: trackers",
-            "id": ""
-          },
-          {
-            "title": "Reglamento General de Protección de Datos de la UE (RGPD)",
-            "id": ""
+            "type": "result"
           }
         ]
+      },
+      {
+        "title": "Herramientas esenciales de la protección digital",
+        "id": ""
+      },
+      {
+        "title": "Configuración y gestión del cortafuegos o firewall",
+        "id": ""
+      },
+      {
+        "title": "Los antivirus y su uso",
+        "id": ""
+      },
+      {
+        "title": "Administradores de contraseñas",
+        "id": ""
+      },
+      {
+        "title": "Autenticación multifactor",
+        "id": ""
+      },
+      {
+        "title": "Respaldo de archivos y datos",
+        "id": ""
+      },
+      {
+        "title": "Mantener aplicaciones y programas actualizados",
+        "id": ""
+      },
+      {
+        "title": "Configuración de la red en casa",
+        "id": ""
+      },
+      {
+        "title": "Uso seguro de redes públicas",
+        "id": ""
+      },
+      {
+        "title": "Red Privada Virtual (VPN)",
+        "id": ""
+      },
+      {
+        "title": "Huella digital I: primeros pasos",
+        "id": ""
+      },
+      {
+        "title": "Huella digital II: configuración de privacidad en redes sociales",
+        "id": ""
+      },
+      {
+        "title": "Huella digital III: permisos de sitios y aplicaciones",
+        "id": ""
+      },
+      {
+        "title": "Huella digital IV: trackers",
+        "id": ""
+      },
+      {
+        "title": "Reglamento General de Protección de Datos de la UE (RGPD)",
+        "id": ""
       }
     ]
   },
@@ -367,43 +424,192 @@
     "category": "Ciberseguridad",
     "id": "ciberseguridad",
     "description": "Aprende sobre los tipos de ciberataques que existen y conoce cuáles son las estrategias que te ayudarán a mantenerte seguro en la red",
-    "subcategories": [
+    "courses": [
       {
-        "name": "Ciberseguridad",
-        "courses": [
+        "title": "¿Qué es la ciberseguridad?",
+        "id": ""
+      },
+      {
+        "title": "Seguridad en la creación y gestión de contraseñas",
+        "id": ""
+      },
+      {
+        "title": "Tipos de ciberataques",
+        "id": ""
+      },
+      {
+        "title": "Uso seguro del correo electrónico",
+        "id": "uso-seguro-del-correo-electronico",
+        "description": "En este curso aprenderás a detectar correos sospechosos y a usar tu bandeja de entrada con seguridad.",
+        "imgSource": "/images/email-icon.jpg",
+        "imgAlternativeText": "icono correo electrónico",
+        "pages": [
           {
-            "title": "¿Qué es la ciberseguridad?",
-            "id": ""
+            "type": "theory",
+            "textContent": "El correo electrónico es una de las herramientas más usadas en Internet: lo necesitamos para crear cuentas, hacer gestiones y comunicarnos. Precisamente por eso es uno de los medios preferidos por los ciberdelincuentes para engañar a las personas. En este curso aprenderás a reconocer correos peligrosos y a protegerte.",
+            "imgSource": "/images/envelope-icons-on-screen.jpg",
+            "imgAlternativeText": "iconos de correo electrónico en pantalla"
           },
           {
-            "title": "Seguridad en la creación y gestión de contraseñas",
-            "id": ""
+            "type": "theory",
+            "textContent": "El principal riesgo del correo es el phishing: mensajes que se hacen pasar por un banco, una tienda, una empresa de mensajería o un organismo público para que entregues tus contraseñas o datos bancarios. También pueden incluir archivos adjuntos o enlaces que instalan programas dañinos en tu dispositivo.",
+            "imgSource": "/images/scam-victim.jpg",
+            "imgAlternativeText": "víctima de estafa"
           },
           {
-            "title": "Tipos de ciberataques",
-            "id": ""
+            "type": "theory",
+            "textContent": "Hay señales que te ayudan a detectar un correo sospechoso: una dirección de remitente extraña o que imita a una conocida, un saludo genérico como “Estimado cliente”, faltas de ortografía, mensajes que te meten prisa o te amenazan con cerrar tu cuenta, y premios o ofertas que parecen demasiado buenos para ser verdad.",
+            "imgSource": "/images/hacker.jpg",
+            "imgAlternativeText": "ciberdelincuente"
           },
           {
-            "title": "Uso seguro del correo electrónico",
-            "id": ""
+            "type": "theory",
+            "textContent": "Si recibes un correo sospechoso, no hagas clic en los enlaces, no abras los archivos adjuntos y no respondas. Si crees que el mensaje podría ser real, entra en la web oficial escribiendo tú mismo la dirección en el navegador, o llama al teléfono oficial de la empresa. Después, marca el correo como spam o phishing y elimínalo.",
+            "imgSource": "/images/email-warning.jpg",
+            "imgAlternativeText": "mensaje de advertencia en bandeja de entrada del correo electrónico"
           },
           {
-            "title": "Detección de fraudes a través de llamadas telefónicas y SMS",
-            "id": ""
+            "type": "theory",
+            "textContent": "Para usar el correo de forma segura, utiliza una contraseña larga y exclusiva para tu cuenta, activa la autenticación en dos pasos, no abras el correo desde ordenadores o redes wifi públicas que no sean de confianza y cierra siempre la sesión cuando termines. Recuerda que ninguna empresa seria te pedirá tu contraseña por correo electrónico.<br /><br /> <span class=\"font-bold text-sky-600\">En la siguiente página encontrarás una simulación en la que podrás practicar lo que has aprendido hasta ahora.</span>",
+            "imgSource": "/images/keyboard-and-lock.jpg",
+            "imgAlternativeText": "teclado y candado"
           },
           {
-            "title": "Distinguir publicidad falsa",
-            "id": ""
+            "type": "simulationFirst",
+            "textContent": "En esta simulación podrás practicar cómo identificar un correo de phishing. Interactúa con la imagen con tu cursor, posándolo sobre las secciones señalizadas o haciendo click sobre ellas. Recuerda que este es un entorno seguro de práctica, por lo que puedes practicar sin preocupaciones ya que no estás interactuando con un correo real.<br /><br /> Si estás viendo esta página desde un móvil o tablet, te recomendamos utilizar el dispositivo en posición horizontal, o cambiar a un ordenador para poder interactuar con la simulación de manera más cómoda. <br /><br /> <span class=\"font-bold text-pink-600\"> Haz click en siguiente para ir a la diapositiva de simulación</span>"
           },
           {
-            "title": "Detectar y gestionar un fraude",
-            "id": ""
+            "type": "simulation",
+            "svgWidth": "1500",
+            "svgHeight": "818",
+            "svgContent": "<rect class=\"notClicked\" style=\"fill:none;stroke-width:3.92852;stroke-opacity:1\" id=\"rect1\" width=\"272.32169\" height=\"27.116203\" x=\"419.60815\" y=\"148.25949\" /><rect class=\"notClicked\" style=\"fill:none;stroke-width:3.58373;stroke-opacity:1\" id=\"rect2\" width=\"86.15332\" height=\"24.32066\" x=\"88.956711\" y=\"173.4523\" /><rect  class=\"notClicked\" style=\"fill:none;stroke-width:4;stroke-opacity:1\"  id=\"rect3\" width=\"495.93625\" height=\"79.043823\" x=\"502.03186\"  y=\"391.39441\" /><rect class=\"notClicked\" style=\"fill:none;stroke-width:4.0452;stroke-opacity:1\" id=\"rect4\" width=\"495.89105\" height=\"53.500622\" x=\"502.05444\" y=\"492.03989\" /><rect class=\"notClicked\" style=\"fill:none;stroke-width:3.98155;stroke-opacity:1\" id=\"rect5\" width=\"280.34186\" height=\"63.763474\" x=\"609.82904\" y=\"573.69598\" />",
+            "imgSource": "/images/simulationImages/phishing/phishing-mockup.png",
+            "imgSource2": "/images/simulationImages/phishing/email-details.png",
+            "clickableAreas": 5,
+            "clickableAreasIds": ["rect1", "rect2", "rect3", "rect4", "rect5"],
+            "rect1Text": "Presta atención a errores ortográficos o uso de caracteres especiales (como por ejemplo un número 0 en vez de una letra O). En este caso han cambiado la v por una w.",
+            "rect2Text": "Puedes hacer click en esta sección para ver más información del remitente.",
+            "rect3Text": "Los atacantes suelen crear una sensación de urgencia ejerciendo presión de tiempo y sugiriendo que se tomarán acciones graves o irreversibles.",
+            "rect4Text": "Una entidad u organización real nunca te pedirá tu contraseña, es contra la ley.",
+            "rect5Text": "No pinches en los enlaces de un correo si no estás seguro de su veracidad."
           },
           {
-            "title": "¿Qué es un virus informático y cómo gestionarlo?",
-            "id": ""
+            "type": "simulationLast",
+            "textContent": "Felicidades, has completado la simulación.<br/><br/> Ahora ya sabes cómo identificar un correo de phishing, ¡bien hecho! <br /><br /> <span class=\"font-bold text-pink-600\"> En la siguiente y última sección deberás completar una prueba corta para comprobar tus conocimientos, y poder finalizar el curso.</span>"
+          },
+          {
+            "type": "test",
+            "title": "riesgo principal correo",
+            "fullQuestion": "¿Qué es el phishing por correo electrónico?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Un correo que se hace pasar por una entidad de confianza para robarte datos",
+                "isCorrect": true
+              },
+              {
+                "id": 1,
+                "answer": "Un tipo de carpeta de la bandeja de entrada",
+                "isCorrect": false
+              },
+              {
+                "id": 2,
+                "answer": "Un programa para enviar correos más rápido",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "type": "test",
+            "title": "senales sospechosas",
+            "fullQuestion": "¿Cuáles de estas son señales de un correo sospechoso?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Un remitente con una dirección extraña",
+                "isCorrect": true
+              },
+              {
+                "id": 1,
+                "answer": "Un mensaje que te mete mucha prisa y te amenaza con cerrar tu cuenta",
+                "isCorrect": true
+              },
+              {
+                "id": 2,
+                "answer": "Un correo de un familiar que conoces sobre una comida del domingo",
+                "isCorrect": false
+              },
+              {
+                "id": 3,
+                "answer": "Un saludo genérico como “Estimado cliente”",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "type": "test",
+            "title": "que hacer sospechoso",
+            "fullQuestion": "Recibes un correo de tu banco que te pide verificar tus datos desde un enlace. ¿Qué haces?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Hago clic en el enlace y escribo mis datos",
+                "isCorrect": false
+              },
+              {
+                "id": 1,
+                "answer": "No pulso el enlace y entro en la web oficial escribiendo yo la dirección, o llamo al banco",
+                "isCorrect": true
+              },
+              {
+                "id": 2,
+                "answer": "Respondo al correo con mis datos",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "type": "test",
+            "title": "buenas practicas correo",
+            "fullQuestion": "¿Qué medida ayuda a proteger tu cuenta de correo?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Usar la misma contraseña que en otras cuentas para no olvidarla",
+                "isCorrect": false
+              },
+              {
+                "id": 1,
+                "answer": "Activar la autenticación en dos pasos y usar una contraseña exclusiva",
+                "isCorrect": true
+              },
+              {
+                "id": 2,
+                "answer": "Dejar la sesión abierta en ordenadores públicos",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "type": "result"
           }
         ]
+      },
+      {
+        "title": "Detección de fraudes a través de llamadas telefónicas y SMS",
+        "id": ""
+      },
+      {
+        "title": "Distinguir publicidad falsa",
+        "id": ""
+      },
+      {
+        "title": "Detectar y gestionar un fraude",
+        "id": ""
+      },
+      {
+        "title": "¿Qué es un virus informático y cómo gestionarlo?",
+        "id": ""
       }
     ]
   },
@@ -411,47 +617,168 @@
     "category": "Pensamiento crítico en la red",
     "id": "pensamiento-critico-en-la-red",
     "description": "Conoce las herramientas que te ayudarán a identificar noticias falsas o contenido generado por Inteligencia Artificial (IA)",
-    "subcategories": [
+    "courses": [
       {
-        "name": "Pensamiento crítico en la red",
-        "courses": [
+        "title": "¿Qué es la desinformación?",
+        "id": "que-es-la-desinformacion",
+        "description": "En este curso aprenderás qué es la desinformación, por qué se difunde tan rápido y qué señales te ayudan a detectarla.",
+        "imgSource": "/images/newspapers.jpg",
+        "imgAlternativeText": "periódicos",
+        "pages": [
           {
-            "title": "¿Qué es la desinformación?",
-            "id": ""
+            "type": "theory",
+            "textContent": "Cada día recibimos una enorme cantidad de información a través de redes sociales, aplicaciones de mensajería y páginas web. No todo lo que leemos es cierto, y algunos contenidos falsos están diseñados para parecer verdaderos. En este curso aprenderás qué es la desinformación, por qué se extiende con tanta facilidad y cómo empezar a detectarla.",
+            "imgSource": "/images/news-on-smartphone.jpg",
+            "imgAlternativeText": "noticias en un smartphone"
           },
           {
-            "title": "Nociones sobre la Inteligencia Artificial (IA)",
-            "id": ""
+            "type": "theory",
+            "textContent": "La desinformación es información falsa o engañosa que se crea y se difunde de forma intencionada para confundir, manipular o conseguir algún beneficio. No hay que confundirla con la información errónea, que es aquella que se comparte sin mala intención porque quien la difunde cree que es verdadera.",
+            "imgSource": "/images/manipulation.jpg",
+            "imgAlternativeText": "persona moviendo fichas de un juego de mesa"
           },
           {
-            "title": "Identificar imágenes creadas con Inteligencia Artificial (IA)",
-            "id": ""
+            "type": "theory",
+            "textContent": "La desinformación se extiende rápido porque apela a nuestras emociones: el miedo, el enfado o la sorpresa nos empujan a compartir sin pensar. Además, las redes sociales tienden a mostrarnos contenido similar a lo que ya vemos, y los mensajes reenviados por familiares o amigos nos parecen más fiables aunque no lo sean.",
+            "imgSource": "/images/suprised-man.jpg",
+            "imgAlternativeText": "hombre sorprendido"
           },
           {
-            "title": "Detectar vídeos generados con Inteligencia Artificial (IA)",
-            "id": ""
+            "type": "theory",
+            "textContent": "La desinformación puede presentarse de muchas formas: bulos o noticias inventadas, titulares exagerados que no coinciden con el contenido, fotos o vídeos reales usados fuera de contexto, imágenes manipuladas o contenido de humor que se toma por verdadero. Hoy también existen imágenes, vídeos y audios creados con Inteligencia Artificial que pueden resultar muy convincentes.",
+            "imgSource": "/images/news-on-browser.jpg",
+            "imgAlternativeText": "noticias en un navegador web"
           },
           {
-            "title": "Reconocer textos generados con Inteligencia Artificial (IA)",
-            "id": ""
+            "type": "theory",
+            "textContent": "Para protegerte, adquiere unos primeros hábitos: desconfía de lo que te provoque una reacción emocional muy fuerte, lee la noticia completa y no solo el titular, comprueba quién la publica y en qué fecha, y busca si otros medios fiables cuentan lo mismo. Y sobre todo, si tienes dudas, no lo compartas: frenar un bulo es tan sencillo como no reenviarlo.<br /><br /> <span class=\"font-bold text-orange-600\">En la siguiente página encontrarás una pequeña prueba para comprobar lo aprendido en esta lección.</span>",
+            "imgSource": "/images/good-newspaper.jpg",
+            "imgAlternativeText": "periódico de buenas noticias"
           },
           {
-            "title": "Distinguir audio generado por Inteligencia Artificial (IA)",
-            "id": ""
+            "type": "test",
+            "title": "definicion desinformacion",
+            "fullQuestion": "¿Qué es la desinformación?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Información falsa o engañosa difundida de forma intencionada",
+                "isCorrect": true
+              },
+              {
+                "id": 1,
+                "answer": "Cualquier noticia con un error de ortografía",
+                "isCorrect": false
+              },
+              {
+                "id": 2,
+                "answer": "La falta de acceso a Internet",
+                "isCorrect": false
+              }
+            ]
           },
           {
-            "title": "Verificación de fuentes y datos en la red",
-            "id": ""
+            "type": "test",
+            "title": "por que se difunde",
+            "fullQuestion": "¿Por qué se extiende tan rápido la desinformación?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Porque apela a emociones como el miedo o el enfado y nos empuja a compartir",
+                "isCorrect": true
+              },
+              {
+                "id": 1,
+                "answer": "Porque las redes sociales siempre verifican todo",
+                "isCorrect": false
+              },
+              {
+                "id": 2,
+                "answer": "Porque los mensajes reenviados por conocidos nos parecen más fiables",
+                "isCorrect": true
+              }
+            ]
           },
           {
-            "title": "Detección de noticias falsas",
-            "id": ""
+            "type": "test",
+            "title": "tipos desinformacion",
+            "fullQuestion": "¿Cuál de estos es un ejemplo de contenido descontextualizado?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Una foto real de hace años presentada como si fuera de un suceso actual",
+                "isCorrect": true
+              },
+              {
+                "id": 1,
+                "answer": "Una noticia publicada por un medio con fecha y autor",
+                "isCorrect": false
+              },
+              {
+                "id": 2,
+                "answer": "Un manual de instrucciones",
+                "isCorrect": false
+              }
+            ]
           },
           {
-            "title": "Noticias y redes sociales",
-            "id": ""
+            "type": "test",
+            "title": "primer habito",
+            "fullQuestion": "Antes de compartir una noticia que te ha sorprendido mucho, ¿qué debes hacer?",
+            "options": [
+              {
+                "id": 0,
+                "answer": "Compartirla enseguida para avisar a los demás",
+                "isCorrect": false
+              },
+              {
+                "id": 1,
+                "answer": "Leerla completa, comprobar la fuente y la fecha, y buscar si otros medios fiables la confirman",
+                "isCorrect": true
+              },
+              {
+                "id": 2,
+                "answer": "Fiarte solo del titular",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "type": "result"
           }
         ]
+      },
+      {
+        "title": "Nociones sobre la Inteligencia Artificial (IA)",
+        "id": ""
+      },
+      {
+        "title": "Identificar imágenes creadas con Inteligencia Artificial (IA)",
+        "id": ""
+      },
+      {
+        "title": "Detectar vídeos generados con Inteligencia Artificial (IA)",
+        "id": ""
+      },
+      {
+        "title": "Reconocer textos generados con Inteligencia Artificial (IA)",
+        "id": ""
+      },
+      {
+        "title": "Distinguir audio generado por Inteligencia Artificial (IA)",
+        "id": ""
+      },
+      {
+        "title": "Verificación de fuentes y datos en la red",
+        "id": ""
+      },
+      {
+        "title": "Detección de noticias falsas",
+        "id": ""
+      },
+      {
+        "title": "Noticias y redes sociales",
+        "id": ""
       }
     ]
   }

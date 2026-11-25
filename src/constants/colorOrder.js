@@ -1,0 +1,1 @@
+export const colorOrder = ['lime', 'standard', 'orange', 'pink']

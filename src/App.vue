@@ -83,7 +83,6 @@ export default {
     modalActive(newVal) {
       document.body.style.overflow = newVal ? 'hidden' : ''
     },
-    //Resetea el curso actual cuando no estemo en la página de un curso
   },
   data() {
     return {

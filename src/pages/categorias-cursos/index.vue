@@ -1,17 +1,18 @@
 <!-- Componente para acceder a las categorías principales de los cursos -->
 <script>
 import Box from '@/components/Box.vue'
+import Breadcrumb from '@/components/Breadcrumb.vue'
+import { colorOrder } from '@/constants/colorOrder'
 
 export default {
   data() {
     return {
-      // Controla los colores de las cajas de categorías, en una futura versión habría que hacer esta utilidad más escalable. Utiliza los nombres de los estilos
-      // definidos en el componente Box.vue
-      boxVariants: ['limeFull', 'standardFull', 'orangeFull', 'pinkFull'],
+      colorOrder,
     }
   },
   components: {
     Box,
+    Breadcrumb,
   },
   props: {
     content: Object,
@@ -21,6 +22,7 @@ export default {
 
 <template>
   <div class="flex flex-col gap-6 text-slate-800">
+    <Breadcrumb :content="content" />
     <h1 class="text-3xl font-bold">Cursos</h1>
     <p class="text-xl">
       Aquí puedes ver los diferentes temas sobre los que puedes aprender. Selecciona un recuadro
@@ -30,7 +32,7 @@ export default {
       <Box
         v-for="(element, index) in content"
         :key="element.category"
-        :variant="boxVariants[index]"
+        :variant="`${colorOrder[index]}Full`"
         class="hover:scale-105 transition"
       >
         <template #content>
